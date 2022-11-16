@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    margin-bottom: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container{
+    width: 1170px;
+    margin: 0px auto;
+    display: flex;
+}
+
+
+/* ======= HEADER =========  */
+#header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 30px;
+}
+
+#main-menu li a{
+    display: block;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#main-menu li:first-child a{
+    padding-left: 0;
+} 
+
+form#search{
+    position: relative;
+}
+
+form#search input{
+    padding: 4px 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 7px;
+    outline: none;
+}
+
+form#search ::placeholder{
+    color: #bfbfbf;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+form#search button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 15px;
+    border: none;
+    background: none;
+    color: #a3a3a3;
+    outline: none;
+}
+
+/* ========= Content ========= */
+
+#wp-content a{
+    display: block;
+}
+
+#content{
+    flex: 829px 0 1;
+    padding-right: 34px;
+}
+
+ /*----- wp-featured post----  */
+#content .featured-post{
+    flex: 488px 0 1;
+    padding-right: 15px;
+}
+
+.featured-post .featured-post-title{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.featured-post .featured-post-excerpt{
+    font-size: 15px;
+    color: #3f3f3f;
+    padding-top: 15px;
+}
+
+/* GLOBAL*/
+ul.list-post{
+    flex: 307px 0 1;  
+    padding-left: 15px; 
+}
+
+ul.list-post li{
+    display: flex;
+    margin-bottom: 20px;
+}
+a.post-thumb{
+    padding-right: 12px;
+}
+a.post-title{
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* ------- menu topic ------  */
+.menu-topic{
+    margin-top: 44px;
+}
+
+.box .box-head{
+    border-bottom: 1px solid #01a050;
+}
+.box .box-head h3{
+    display: inline-block;
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: 700;
+    background: #01a050;
+    padding: 10px 26px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.box{
+    margin-bottom: 40px;
+}
+
+.box .box-body{
+    padding-top: 28px;
+    display: flex;
+}
+
+.box .box-body .box-content{
+    flex: 488px 0 1;
+    padding-right: 15px;
+}
+
+.box-body .box-content a.menu-post-title{
+    color: #222222;
+    font-weight: 700;
+}
+
+.box-body .box-content .menu-post-detail{
+    display: flex;
+}
+
+.menu-post-detail a.detail-post-thumb{
+    padding-right: 10px;
+}
+.menu-post-detail p.excerpt{
+    padding-left: 10px;
+    font-size: 14px;
+    color: #3f3f3f;
+}
+
+/* ======== SIDEBAR ======== */
+#sidebar{
+    flex: 341px 0 1;
+    padding-left: 34px;
+}
+
+#sidebar .box{
+    margin-bottom: 50px;
+}
+
+#sidebar .box .box-head h3{
+    background: none;
+    color: #000000;
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 0;
+    margin-top: 38px;
+}
+
+#sidebar .box .box-body ul.list-post{
+    padding-left: 0;
+}
+
+
+p{
+    margin-bottom: 0;
+}
+/* ======== FOOTER =======  */
+#footer{
+    background: #01a050;
+    padding: 38px 0px;
+    color: #ffffff;
+}
+#footer a{
+    display: block;
+    color: #ffffff;
+}
+
+#footer a i{
+    padding-right: 12px;
+}
+
+/* --- about me ------  */
+#footer .box-footer.about-me{
+    flex: 293px 0 1;
+    padding-right: 16px;
+}
+
+#footer .box-footer.about-me p{
+    padding: 7px 0;
+}
+
+#footer .box-footer.about-me p i{
+    padding-right: 15px;
+}
+
+/* ------ list ----  */
+#footer .box-footer.list{
+    flex: 165px 0 1;
+}
+
+/* ------ featured news ------  */
+#footer .box-footer.featured-news{
+    flex: 327px 0 1;
+}
+
+/* -------- fanpage --------  */
+#footer .box-footer.fanpage{
+    flex: 277px 0 1;
+}
+
+.box-footer-head h3{
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.box-footer-body{
+    padding-top: 34px;
+    font-size: 15px;
+}
+
+/* ========= COPY RIHGT ======  */
+
+#wp-copy-right p.copy-right{
+    padding: 9px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #454545;
+}
+
+
+
+
+
